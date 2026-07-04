@@ -68,7 +68,7 @@
     {
       "@type": "Question",
       "name": "Wie lange sind die Notvorrats-Lebensmittel haltbar?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Das hängt von der Linie ab. Unsere Langzeitnahrung ist bis zu 25 Jahre haltbar – luftdicht versiegelt, ohne Konservierungsstoffe. Das rotierende Frische-Abo setzt bewusst auf normal haltbare Lebensmittel, die vor Ablauf automatisch ersetzt werden, damit dein Vorrat immer aktuell bleibt." }
+      "acceptedAnswer": { "@type": "Answer", "text": "Das hängt von der Linie ab. Unsere Langzeitnahrung ist mehrere Jahre haltbar – echte Lebensmittel statt Bunker-Food, sorgfältig verpackt und bei Raumtemperatur lagerbar. Das rotierende Frische-Abo setzt zusätzlich auf normal haltbare Lebensmittel, die wir rechtzeitig vor Ablauf ersetzen, damit dein Vorrat immer aktuell bleibt." }
     },
     {
       "@type": "Question",
@@ -408,7 +408,9 @@ footer{background:#070707;border-top:1px solid var(--border);padding:64px 0 30px
   .foot-grid{grid-template-columns:1fr}
   .stats{gap:32px}
   .section-pad{padding:64px 0}
-  nav.mobile{display:flex}
+  .cycle{gap:16px;margin-bottom:34px}
+  .cyc{border:1px solid var(--border-strong);border-left:3px solid var(--accent);padding-left:23px}
+  .impact{margin-top:4px}
 }
 @media(max-width:560px){
   .pillars,.cats,.values{grid-template-columns:1fr}
@@ -576,7 +578,7 @@ nav.mobile .close svg{width:28px;height:28px}
           <h3>72-Stunden-Notfall-Kit</h3>
           <p>Das Rundum-sorglos-Paket für die ersten drei Tage.</p>
           <div class="foot">
-            <div class="price">CHF 249.00<span class="old">299.00</span></div>
+            <div class="price">CHF 209.00<span class="old">249.00</span></div>
             <a href="#final" class="btn-soon">Vormerken</a>
           </div>
         </div>
@@ -584,13 +586,13 @@ nav.mobile .close svg{width:28px;height:28px}
       <article class="pcard">
         <div class="thumb">
           <span class="badge-soon">Bald verfügbar</span>
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 8h12l-1 12H7L6 8zM9 8V5h6v3"/></svg>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M8 3h8v3H8z"/><path d="M7 6h10v13a2 2 0 01-2 2H9a2 2 0 01-2-2V6z"/><path d="M7 11h10"/></svg>
         </div>
         <div class="body">
           <h3>Langzeit-Notvorrat 1 Person / 1 Monat</h3>
-          <p>Bis zu 25 Jahre haltbar. Schweizer Qualität, für den Ernstfall im Lager.</p>
+          <p>Mehrere Jahre haltbar — echte Lebensmittel statt Bunker-Food, in Schweizer Qualität.</p>
           <div class="foot">
-            <div class="price">CHF 489.00</div>
+            <div class="price">CHF 419.00<span class="old">489.00</span></div>
             <a href="#final" class="btn-soon">Vormerken</a>
           </div>
         </div>
@@ -604,7 +606,7 @@ nav.mobile .close svg{width:28px;height:28px}
           <h3>Solar-Powerstation 500W mit Panel</h3>
           <p>Sofort einsatzbereit bei Stromausfall — autark und leise.</p>
           <div class="foot">
-            <div class="price">CHF 699.00<span class="old">849.00</span></div>
+            <div class="price">CHF 599.00<span class="old">699.00</span></div>
             <a href="#final" class="btn-soon">Vormerken</a>
           </div>
         </div>
@@ -624,7 +626,7 @@ nav.mobile .close svg{width:28px;height:28px}
     <div class="cycle">
       <div class="cyc">
         <div class="step">Schritt 01</div>
-        <svg class="cicon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 8h12l-1 12H7L6 8zM9 8V5h6v3"/></svg>
+        <svg class="cicon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="M8 3h8v3H8z"/><path d="M7 6h10v13a2 2 0 01-2 2H9a2 2 0 01-2-2V6z"/><path d="M7 11h10"/></svg>
         <h3>Du lagerst frisch</h3>
         <p>Echte Lebensmittel in Schweizer Qualität kommen zu dir nach Hause — griffbereit, nicht vergraben.</p>
       </div>
@@ -751,7 +753,7 @@ nav.mobile .close svg{width:28px;height:28px}
         <tr><td>Versand aus der Schweiz</td><td class="mid"><svg class="yes" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg></td><td class="mid"><svg class="no" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 6l12 12M18 6L6 18"/></svg></td></tr>
         <tr><td>Rotierendes Frische-Abo</td><td class="mid"><svg class="yes" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg></td><td class="mid"><svg class="no" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 6l12 12M18 6L6 18"/></svg></td></tr>
         <tr><td>Diskrete Verpackung</td><td class="mid"><svg class="yes" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg></td><td class="mid"><svg class="no" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 6l12 12M18 6L6 18"/></svg></td></tr>
-        <tr><td>Bis 25 Jahre Haltbarkeit</td><td class="mid"><svg class="yes" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg></td><td class="mid"><svg class="no" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 6l12 12M18 6L6 18"/></svg></td></tr>
+        <tr><td>Lange haltbar &amp; frisch</td><td class="mid"><svg class="yes" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg></td><td class="mid"><svg class="no" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 6l12 12M18 6L6 18"/></svg></td></tr>
         <tr><td>Praxisgetestete Auswahl</td><td class="mid"><svg class="yes" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg></td><td class="mid"><svg class="no" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 6l12 12M18 6L6 18"/></svg></td></tr>
         <tr><td>Persönliche Beratung</td><td class="mid"><svg class="yes" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg></td><td class="mid"><svg class="no" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 6l12 12M18 6L6 18"/></svg></td></tr>
         <tr><td>BWL-konforme Kits</td><td class="mid"><svg class="yes" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg></td><td class="mid"><svg class="no" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 6l12 12M18 6L6 18"/></svg></td></tr>
@@ -806,7 +808,7 @@ nav.mobile .close svg{width:28px;height:28px}
         <button class="faq-q"><span class="qn">01</span> Wie lange sind die Notvorrats-Lebensmittel haltbar?
           <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
         </button>
-        <div class="faq-a"><p>Das hängt von der Linie ab. Unsere Langzeitnahrung ist bis zu 25 Jahre haltbar — luftdicht versiegelt, ohne Konservierungsstoffe, Lagerung bei Raumtemperatur. Das rotierende Frische-Abo setzt bewusst auf normal haltbare Lebensmittel, die vor Ablauf automatisch ersetzt werden.</p></div>
+        <div class="faq-a"><p>Das hängt von der Linie ab. Unsere Langzeitnahrung ist mehrere Jahre haltbar — echte Lebensmittel statt Bunker-Food, sorgfältig verpackt und bei Raumtemperatur lagerbar. Das rotierende Frische-Abo setzt zusätzlich auf normal haltbare Lebensmittel, die wir rechtzeitig vor Ablauf ersetzen, damit dein Vorrat immer aktuell bleibt.</p></div>
       </div>
       <div class="faq-item">
         <button class="faq-q"><span class="qn">02</span> Wie funktioniert das rotierende Nahrungs-Abo?
