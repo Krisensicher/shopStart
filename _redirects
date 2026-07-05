@@ -1,0 +1,4 @@
+http://krisensicher.ch/*      https://www.krisensicher.ch/:splat    301!
+https://krisensicher.ch/*     https://www.krisensicher.ch/:splat    301!
+http://www.krisensicher.ch/*  https://www.krisensicher.ch/:splat    301!
+/index.html                   /                                     301!
